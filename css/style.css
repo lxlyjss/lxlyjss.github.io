@@ -1,0 +1,270 @@
+html,body{
+	font-size: 100%;
+	background-color:#f7f7f7;
+}
+a:hover{
+	text-decoration: none;
+}
+#header{
+	box-shadow: 0px 0px 10px #ccc;
+	background-color: #fff;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+.header-nav{
+	/*width: 100%;*/
+}
+.nav-menu{
+	margin: 0 auto;
+	float:none;
+}
+.nav-menu-list{
+	display: table;
+	width: 100%;
+	margin-bottom: 0;
+}
+.nav-menu-list .list{
+	display: table-cell;
+	width: 12%;
+}
+.nav-menu-list .list a{
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #303030;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	transition: color .5s;
+	text-decoration: none;
+}
+.nav-menu-list .list a:hover{
+	color: red;
+}
+.min-menu-btn{
+	width: 40px;
+	margin: 0 auto;
+}
+.min-menu-box{
+	position: relative;
+	padding-top: 10px;
+}
+.min-menu-box .menu-line{
+	padding: 1px 20px;
+	background-color:#000;
+	display: block;
+	margin-bottom: 10px;
+}
+.min-menu-list{
+	display: none;
+}
+.min-menu-list .list a{
+	text-align: center;
+	padding: 10px 0;
+	display: block;
+}
+.min-menu-list .list a{
+	color: #000;
+}
+.min-menu-list .list.active{
+	background: #2A6496;
+}
+.min-menu-box .menu-line{
+	transition: all .5s;
+	transform-origin: center left;
+	opacity: 1;
+}
+.min-menu-box.open .menu-line1{
+	transition: transform .5s;
+	transform: rotate(36deg) translateX(4px);
+}
+.min-menu-box.open .menu-line2{
+	transition: opacity .5s;
+	opacity: 0;
+}
+.min-menu-box.open .menu-line3{
+	transition: transform .5s;
+	transform: rotate(-36deg) translateX(3px) translateY(4px);
+}
+/*背景图*/
+#section{
+	padding-top: 70px;
+}
+.index-bg{
+	/*width: 100%;*/
+	min-height: 600px;
+	padding-top:100px;
+	background:url(../img/banner-1.jpg) no-repeat;
+	background-size: cover;
+}
+.line1{
+	width: 80px;
+	display: inline-block;
+	vertical-align: 20%;
+	padding-top:2px;
+	background-color:#303030;
+}
+.read-more{
+	width: 100px;
+	margin: 0 auto;
+}
+.index-info{
+	max-width: 80%;
+	margin: 0 auto;
+}
+.text-white{
+	color: white;
+}
+.text-ccc{
+	color: #ccc;
+}
+.text-777{
+	color: #777;
+}
+/*选项卡*/
+.tab-container .my-tab{
+	border-bottom:1px solid #ccc;
+}
+.tab-list{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+	transition: all .3s;
+	cursor: pointer;
+}
+.tab-list:hover{
+	border: 1px solid #ccc;
+	border-bottom:3px solid red;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.tab-container .row div.tab-list-active{
+	border: 1px solid #ccc;
+	border-bottom:3px solid red;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.my-tab-content{
+	padding: 50px 15px;
+}
+.my-tab-content>div{
+	padding: 15px 15px;
+}
+.tab-img{
+	width: 100%;
+}
+/*info-content*/
+.content-left{
+	padding: 0 0;
+}
+.info-page1{
+	background-color: #fff;
+	padding: 30px 30px;
+	margin-bottom: 15px;
+}
+.info-title{
+	font-size: 20px;
+}
+.search-input{
+	height: 29px;
+}
+.aside-info{
+	padding: 30px 15px;
+	background: #fff;
+}
+.near-blog-title{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 0 0;
+	margin-bottom: 0;
+}
+.blog-list{
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+}
+.blog-img,.blog-title{
+	width: 50%;
+	display: inline-block;
+}
+.blog-title{
+	margin-left: -4px;
+	vertical-align: top;
+}
+.blog-title p{
+	padding: 0 5px;
+}
+.blog-img img{
+	width: 100%;
+}
+.text-nowrap{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fun-img table tr td{
+	padding: 4px 4px;
+}
+.fun-img table tr td img{
+	width: 100%;
+	height: auto;
+}
+.info-page2{
+	margin-bottom: 15px;
+}
+.info-page2-content{
+	padding: 0 15px;
+}
+.info-page{
+	padding:30px 30px;
+	background-color:#fff;
+	margin-bottom: 15px;
+}
+.info-page2-content>div{
+	padding:30px 30px;
+	background-color: #fff;
+}
+/*footer*/
+footer{
+	background-color:#303030;
+}
+footer .container{
+	padding: 20px 15px;
+}
+.bottom-read-more{
+	margin-top: 15px;
+}
+.bottom-input{
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 4px 4px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.bottom-btn{
+	border-radius: 0;
+	width: 100%;
+}
+.footer-bottom-info{
+	height: 50px;
+	background: #000;
+}
+.footer-bottom-info p{
+	line-height: 50px;
+	margin-bottom: 0px;
+}
+@media only screen and (max-width: 500px) {
+	.index-bg{
+		min-height: 300px;
+		padding-top: 50px;
+	}
+	.index-info h1{
+		font-size: 18px;
+	}
+	.line1{
+		width: 40px;
+	}
+}
